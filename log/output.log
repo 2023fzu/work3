@@ -1,0 +1,1223 @@
+23-10-293 00:55 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:55 [main] INFO  ShopLog - 删除0项
+23-10-293 00:55 [main] INFO  ShopLog - 删除成功
+23-10-293 00:55 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:55 [main] INFO  ShopLog - 添加成功
+23-10-293 00:55 [main] INFO  ShopLog - ========All========
+23-10-293 00:55 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:55 [main] INFO  ShopLog - ========ById=========
+23-10-293 00:55 [main] INFO  ShopLog - --------------------------
+23-10-293 00:55 [main] INFO  ShopLog - --------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - =========ByName======
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 00:55 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 00:55 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 00:55 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 00:55 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 00:55 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 00:55 [main] ERROR ShopLog - Id haven't set
+23-10-293 00:55 [main] INFO  ShopLog - ==========sort==========
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - -------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - -------------------------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:55 [main] INFO  ShopLog - ============head===========
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:55 [main] INFO  ShopLog - -----------tail-----------
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=10000}
+23-10-293 00:55 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:56 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:56 [main] ERROR ShopLog - Name 大波浪薯片咖喱味 has existed
+23-10-293 00:56 [main] ERROR ShopLog - 添加失败
+23-10-293 00:57 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:57 [main] INFO  ShopLog - 更新成功
+23-10-293 00:57 [main] INFO  ShopLog - ========All========
+23-10-293 00:57 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:57 [main] INFO  ShopLog - ========ById=========
+23-10-293 00:57 [main] INFO  ShopLog - --------------------------
+23-10-293 00:57 [main] INFO  ShopLog - --------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - =========ByName======
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 00:57 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 00:57 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 00:57 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 00:57 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 00:57 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 00:57 [main] ERROR ShopLog - Id haven't set
+23-10-293 00:57 [main] INFO  ShopLog - ==========sort==========
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - -------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - -------------------------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:57 [main] INFO  ShopLog - ============head===========
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - -----------tail-----------
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:57 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 00:59 [main] INFO  ShopLog - 添加成功
+23-10-293 00:59 [main] INFO  ShopLog - 删除0项
+23-10-293 00:59 [main] INFO  ShopLog - 删除成功
+23-10-293 00:59 [main] INFO  ShopLog - 更新成功
+23-10-293 00:59 [main] INFO  ShopLog - ========All========
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 00:59 [main] INFO  ShopLog - ========ById=========
+23-10-293 00:59 [main] INFO  ShopLog - --------------------------
+23-10-293 00:59 [main] INFO  ShopLog - --------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - =========ByName======
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 00:59 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 00:59 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 00:59 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 00:59 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 00:59 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 00:59 [main] ERROR ShopLog - Id haven't set
+23-10-293 00:59 [main] INFO  ShopLog - ==========sort==========
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - -------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - -------------------------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00021, name='番茄酱５００ｍｌ'　　　　　　　, price=020.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00024, name='大波浪薯片烧烤味'　　　　　　　, price=007.12, stock=0050}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00026, name='乐事波浪薯片袋咖喱味１００ｇ'　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00022, name='大波浪薯片'　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00017, name='美年达金桔味'　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00018, name='美年达橙子味'　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00019, name='番茄酱小包'　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 00:59 [main] INFO  ShopLog - ============head===========
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00010, name='薯条'　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00016, name='可口可乐'　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 00:59 [main] INFO  ShopLog - -----------tail-----------
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00032, name='大波浪薯片味'　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 00:59 [main] INFO  ShopLog - Good{id=00030, name='大波浪薯片咖喱味'　　　　　　　, price=007.12, stock=0100}
+23-10-293 02:11 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:22 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:32 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:32 [main] INFO  ShopLog - 删除0项,删除成功
+23-10-293 02:33 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 02:33 [main] ERROR ShopLog - Bill connect with id
+23-10-293 02:33 [main] ERROR ShopLog - 删除失败
+23-10-293 19:59 [main] INFO  ShopLog - ========All========
+23-10-293 19:59 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - ----------------------------
+23-10-293 19:59 [main] INFO  ShopLog - ========ById=========
+23-10-293 19:59 [main] INFO  ShopLog - --------------------------
+23-10-293 19:59 [main] INFO  ShopLog - --------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - =========ByName======
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 19:59 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 19:59 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 19:59 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 19:59 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 19:59 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - ==========sort==========
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - -------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - -------------------------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 19:59 [main] INFO  ShopLog - ============head===========
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 19:59 [main] INFO  ShopLog - -----------tail-----------
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 19:59 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 22:54 [main] ERROR ShopLog - Name 大波浪薯片味 has existed
+23-10-293 22:54 [main] ERROR ShopLog - 添加失败
+23-10-293 22:54 [main] ERROR ShopLog - Bill connect with id
+23-10-293 22:54 [main] ERROR ShopLog - 删除失败
+23-10-293 22:54 [main] INFO  ShopLog - 更新成功
+23-10-293 22:54 [main] INFO  ShopLog - ========All========
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:54 [main] INFO  ShopLog - ========ById=========
+23-10-293 22:54 [main] INFO  ShopLog - --------------------------
+23-10-293 22:54 [main] INFO  ShopLog - --------------------------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - =========ByName======
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 22:54 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 22:54 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 22:54 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 22:54 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 22:54 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:54 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:54 [main] INFO  ShopLog - ==========sort==========
+23-10-293 22:56 [main] INFO  ShopLog - ========All========
+23-10-293 22:56 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - =======dividePagesTo=============
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - ----------------------------
+23-10-293 22:56 [main] INFO  ShopLog - ========ById=========
+23-10-293 22:56 [main] INFO  ShopLog - --------------------------
+23-10-293 22:56 [main] INFO  ShopLog - --------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - --------ByIds--------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - =========ByName======
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - ------ByNames--------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - ==========ByPrice=======
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - ----------ByPrices---------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] ERROR ShopLog - Low 4.0 Larger Than High 2.0
+23-10-293 22:56 [main] INFO  ShopLog - ==========ByStock=======
+23-10-293 22:56 [main] ERROR ShopLog - stock -3 can not be minus
+23-10-293 22:56 [main] INFO  ShopLog - ----------ByStocks---------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] ERROR ShopLog - Low 1000.0 Larger Than High 200.0
+23-10-293 22:56 [main] ERROR ShopLog - stock -4000 can not be minus
+23-10-293 22:56 [main] INFO  ShopLog - ===========ByCondition=========
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - ==========sort==========
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - -------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - -------------------------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00019, name=番茄酱小包　　　　　　　　　　, price=001.00, stock=5000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00017, name=美年达金桔味　　　　　　　　　, price=003.00, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00018, name=美年达橙子味　　　　　　　　　, price=003.00, stock=2000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00022, name=大波浪薯片　　　　　　　　　　, price=007.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00024, name=大波浪薯片烧烤味　　　　　　　, price=007.12, stock=0050}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00026, name=乐事波浪薯片袋咖喱味１００ｇ　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00030, name=大波浪薯片咖喱味　　　　　　　, price=007.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00021, name=番茄酱５００ｍｌ　　　　　　　, price=020.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - ============head===========
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00010, name=薯条　　　　　　　　　　　　　, price=003.00, stock=0030}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00016, name=可口可乐　　　　　　　　　　　, price=003.12, stock=0100}
+23-10-293 22:56 [main] INFO  ShopLog - -----------tail-----------
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00033, name=达利园面包　　　　　　　　　　, price=005.00, stock=0020}
+23-10-293 22:56 [main] INFO  ShopLog - Good{id=00032, name=大波浪薯片味　　　　　　　　　, price=007.12, stock=1000}
+23-10-293 23:15 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=21, goodId=10, goodName=null, customerId=12, price=23.41, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=22, goodId=16, goodName=null, customerId=41, price=235.46, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=23, goodId=17, goodName=null, customerId=52, price=432.24, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=24, goodId=18, goodName=null, customerId=62, price=12.44, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=25, goodId=19, goodName=null, customerId=64, price=45.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=26, goodId=21, goodName=null, customerId=64, price=31.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=27, goodId=22, goodName=null, customerId=14, price=25.36, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=28, goodId=24, goodName=null, customerId=53, price=62.44, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=29, goodId=26, goodName=null, customerId=53, price=16.35, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=30, goodId=30, goodName=null, customerId=12, price=14.41, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=31, goodId=32, goodName=null, customerId=43, price=61.51, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=32, goodId=10, goodName=null, customerId=54, price=24.14, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=33, goodId=16, goodName=null, customerId=24, price=14.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=34, goodId=17, goodName=null, customerId=13, price=64.16, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=35, goodId=18, goodName=null, customerId=53, price=42.12, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=36, goodId=19, goodName=null, customerId=64, price=42.62, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=37, goodId=21, goodName=null, customerId=24, price=61.12, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=38, goodId=22, goodName=null, customerId=13, price=24.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=39, goodId=24, goodName=null, customerId=25, price=23.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:15 [main] INFO  ShopLog - Bill{id=40, goodId=26, goodName=null, customerId=24, price=146.64, billDate=2023-10-20 23:15:53}
+23-10-293 23:16 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=29, goodId=0, goodName=乐事波浪薯片袋咖喱味100g, customerId=53, price=16.35, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=40, goodId=0, goodName=乐事波浪薯片袋咖喱味100g, customerId=24, price=146.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=22, goodId=0, goodName=可口可乐, customerId=41, price=235.46, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=33, goodId=0, goodName=可口可乐, customerId=24, price=14.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=27, goodId=0, goodName=大波浪薯片, customerId=14, price=25.36, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=38, goodId=0, goodName=大波浪薯片, customerId=13, price=24.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=31, goodId=0, goodName=大波浪薯片味, customerId=43, price=61.51, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=30, goodId=0, goodName=大波浪薯片咖喱味, customerId=12, price=14.41, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=28, goodId=0, goodName=大波浪薯片烧烤味, customerId=53, price=62.44, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=39, goodId=0, goodName=大波浪薯片烧烤味, customerId=25, price=23.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=26, goodId=0, goodName=番茄酱500ml, customerId=64, price=31.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=37, goodId=0, goodName=番茄酱500ml, customerId=24, price=61.12, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=25, goodId=0, goodName=番茄酱小包, customerId=64, price=45.64, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=36, goodId=0, goodName=番茄酱小包, customerId=64, price=42.62, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=24, goodId=0, goodName=美年达橙子味, customerId=62, price=12.44, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=35, goodId=0, goodName=美年达橙子味, customerId=53, price=42.12, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=23, goodId=0, goodName=美年达金桔味, customerId=52, price=432.24, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=34, goodId=0, goodName=美年达金桔味, customerId=13, price=64.16, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=21, goodId=0, goodName=薯条, customerId=12, price=23.41, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=32, goodId=0, goodName=薯条, customerId=54, price=24.14, billDate=2023-10-20 23:16:10}
+23-10-293 23:16 [main] INFO  ShopLog - Bill{id=0, goodId=0, goodName=达利园面包, customerId=0, price=0.0, billDate=2023-10-20 23:16:10}
+23-10-293 23:18 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=29, goodName乐事波浪薯片袋咖喱味100g, customerId=53, price=16.35, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=40, goodName乐事波浪薯片袋咖喱味100g, customerId=24, price=146.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=22, goodName可口可乐, customerId=41, price=235.46, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=33, goodName可口可乐, customerId=24, price=14.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=27, goodName大波浪薯片, customerId=14, price=25.36, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=38, goodName大波浪薯片, customerId=13, price=24.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=31, goodName大波浪薯片味, customerId=43, price=61.51, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=30, goodName大波浪薯片咖喱味, customerId=12, price=14.41, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=28, goodName大波浪薯片烧烤味, customerId=53, price=62.44, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=39, goodName大波浪薯片烧烤味, customerId=25, price=23.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=26, goodName番茄酱500ml, customerId=64, price=31.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=37, goodName番茄酱500ml, customerId=24, price=61.12, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=25, goodName番茄酱小包, customerId=64, price=45.64, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=36, goodName番茄酱小包, customerId=64, price=42.62, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=24, goodName美年达橙子味, customerId=62, price=12.44, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=35, goodName美年达橙子味, customerId=53, price=42.12, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=23, goodName美年达金桔味, customerId=52, price=432.24, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=34, goodName美年达金桔味, customerId=13, price=64.16, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=21, goodName薯条, customerId=12, price=23.41, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=32, goodName薯条, customerId=54, price=24.14, billDate=2023-10-20 23:18:58}
+23-10-293 23:18 [main] INFO  ShopLog - Bill{id=0, goodName达利园面包, customerId=0, price=0.0, billDate=2023-10-20 23:18:58}
+23-10-293 23:19 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=21, goodId=10, customerId=12, price=23.41, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=22, goodId=16, customerId=41, price=235.46, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=23, goodId=17, customerId=52, price=432.24, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=24, goodId=18, customerId=62, price=12.44, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=25, goodId=19, customerId=64, price=45.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=26, goodId=21, customerId=64, price=31.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=27, goodId=22, customerId=14, price=25.36, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=28, goodId=24, customerId=53, price=62.44, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=29, goodId=26, customerId=53, price=16.35, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=30, goodId=30, customerId=12, price=14.41, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=31, goodId=32, customerId=43, price=61.51, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=32, goodId=10, customerId=54, price=24.14, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=33, goodId=16, customerId=24, price=14.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=34, goodId=17, customerId=13, price=64.16, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=35, goodId=18, customerId=53, price=42.12, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=36, goodId=19, customerId=64, price=42.62, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=37, goodId=21, customerId=24, price=61.12, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=38, goodId=22, customerId=13, price=24.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=39, goodId=24, customerId=25, price=23.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=40, goodId=26, customerId=24, price=146.64, billDate=2023-10-20 23:19:08}
+23-10-293 23:19 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=29, goodName乐事波浪薯片袋咖喱味100g, customerId=53, price=16.35, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=40, goodName乐事波浪薯片袋咖喱味100g, customerId=24, price=146.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=22, goodName可口可乐, customerId=41, price=235.46, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=33, goodName可口可乐, customerId=24, price=14.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=27, goodName大波浪薯片, customerId=14, price=25.36, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=38, goodName大波浪薯片, customerId=13, price=24.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=31, goodName大波浪薯片味, customerId=43, price=61.51, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=30, goodName大波浪薯片咖喱味, customerId=12, price=14.41, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=28, goodName大波浪薯片烧烤味, customerId=53, price=62.44, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=39, goodName大波浪薯片烧烤味, customerId=25, price=23.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=26, goodName番茄酱500ml, customerId=64, price=31.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=37, goodName番茄酱500ml, customerId=24, price=61.12, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=25, goodName番茄酱小包, customerId=64, price=45.64, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=36, goodName番茄酱小包, customerId=64, price=42.62, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=24, goodName美年达橙子味, customerId=62, price=12.44, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=35, goodName美年达橙子味, customerId=53, price=42.12, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=23, goodName美年达金桔味, customerId=52, price=432.24, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=34, goodName美年达金桔味, customerId=13, price=64.16, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=21, goodName薯条, customerId=12, price=23.41, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=32, goodName薯条, customerId=54, price=24.14, billDate=2023-10-20 23:19:18}
+23-10-293 23:19 [main] INFO  ShopLog - Bill{id=0, goodName达利园面包, customerId=0, price=0.0, billDate=2023-10-20 23:19:18}
+23-10-293 23:25 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:27 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00029, goodName=乐事波浪薯片袋咖喱味１００ｇ　, customerId=00053, price=016.35, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00040, goodName=乐事波浪薯片袋咖喱味１００ｇ　, customerId=00024, price=146.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00022, goodName=可口可乐　　　　　　　　　　　, customerId=00041, price=235.46, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00033, goodName=可口可乐　　　　　　　　　　　, customerId=00024, price=014.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00027, goodName=大波浪薯片　　　　　　　　　　, customerId=00014, price=025.36, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00038, goodName=大波浪薯片　　　　　　　　　　, customerId=00013, price=024.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00031, goodName=大波浪薯片味　　　　　　　　　, customerId=00043, price=061.51, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00030, goodName=大波浪薯片咖喱味　　　　　　　, customerId=00012, price=014.41, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00028, goodName=大波浪薯片烧烤味　　　　　　　, customerId=00053, price=062.44, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00039, goodName=大波浪薯片烧烤味　　　　　　　, customerId=00025, price=023.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00026, goodName=番茄酱５００ｍｌ　　　　　　　, customerId=00064, price=031.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00037, goodName=番茄酱５００ｍｌ　　　　　　　, customerId=00024, price=061.12, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00025, goodName=番茄酱小包　　　　　　　　　　, customerId=00064, price=045.64, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00036, goodName=番茄酱小包　　　　　　　　　　, customerId=00064, price=042.62, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00024, goodName=美年达橙子味　　　　　　　　　, customerId=00062, price=012.44, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00035, goodName=美年达橙子味　　　　　　　　　, customerId=00053, price=042.12, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00023, goodName=美年达金桔味　　　　　　　　　, customerId=00052, price=432.24, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00034, goodName=美年达金桔味　　　　　　　　　, customerId=00013, price=064.16, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00021, goodName=薯条　　　　　　　　　　　　　, customerId=00012, price=023.41, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00032, goodName=薯条　　　　　　　　　　　　　, customerId=00054, price=024.14, billDate=2023-10-20 23:27:25}
+23-10-293 23:27 [main] INFO  ShopLog - Bill{id=00000, goodName=达利园面包　　　　　　　　　　, customerId=00000, price=000.00, billDate=2023-10-20 23:27:25}
+23-10-293 23:37 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00029, goodName=乐事波浪薯片袋咖喱味１００ｇ　, customerId=00053, price=016.35, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00040, goodName=乐事波浪薯片袋咖喱味１００ｇ　, customerId=00024, price=146.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00022, goodName=可口可乐　　　　　　　　　　　, customerId=00041, price=235.46, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00033, goodName=可口可乐　　　　　　　　　　　, customerId=00024, price=014.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00027, goodName=大波浪薯片　　　　　　　　　　, customerId=00014, price=025.36, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00038, goodName=大波浪薯片　　　　　　　　　　, customerId=00013, price=024.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00031, goodName=大波浪薯片味　　　　　　　　　, customerId=00043, price=061.51, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00030, goodName=大波浪薯片咖喱味　　　　　　　, customerId=00012, price=014.41, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00028, goodName=大波浪薯片烧烤味　　　　　　　, customerId=00053, price=062.44, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00039, goodName=大波浪薯片烧烤味　　　　　　　, customerId=00025, price=023.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00026, goodName=番茄酱５００ｍｌ　　　　　　　, customerId=00064, price=031.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00037, goodName=番茄酱５００ｍｌ　　　　　　　, customerId=00024, price=061.12, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00025, goodName=番茄酱小包　　　　　　　　　　, customerId=00064, price=045.64, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00036, goodName=番茄酱小包　　　　　　　　　　, customerId=00064, price=042.62, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00024, goodName=美年达橙子味　　　　　　　　　, customerId=00062, price=012.44, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00035, goodName=美年达橙子味　　　　　　　　　, customerId=00053, price=042.12, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00023, goodName=美年达金桔味　　　　　　　　　, customerId=00052, price=432.24, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00034, goodName=美年达金桔味　　　　　　　　　, customerId=00013, price=064.16, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00021, goodName=薯条　　　　　　　　　　　　　, customerId=00012, price=023.41, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00032, goodName=薯条　　　　　　　　　　　　　, customerId=00054, price=024.14, billDate=2023-10-20 23:37:47}
+23-10-293 23:37 [main] INFO  ShopLog - Bill{id=00000, goodName=达利园面包　　　　　　　　　　, customerId=00000, price=000.00, billDate=2023-10-20 23:37:47}
+23-10-293 23:50 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:50 [main] INFO  ShopLog - 
+23-10-293 23:51 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:51 [main] INFO  ShopLog - Bill List
+ID	Good Name	Customer ID	Price	Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　	00053	016.35	2023-10-20 23:51:20
+00040	乐事波浪薯片袋咖喱味１００ｇ　	00024	146.64	2023-10-20 23:51:20
+00022	可口可乐　　　　　　　　　　　	00041	235.46	2023-10-20 23:51:20
+00033	可口可乐　　　　　　　　　　　	00024	014.64	2023-10-20 23:51:20
+00027	大波浪薯片　　　　　　　　　　	00014	025.36	2023-10-20 23:51:20
+00038	大波浪薯片　　　　　　　　　　	00013	024.64	2023-10-20 23:51:20
+00031	大波浪薯片味　　　　　　　　　	00043	061.51	2023-10-20 23:51:20
+00030	大波浪薯片咖喱味　　　　　　　	00012	014.41	2023-10-20 23:51:20
+00028	大波浪薯片烧烤味　　　　　　　	00053	062.44	2023-10-20 23:51:20
+00039	大波浪薯片烧烤味　　　　　　　	00025	023.64	2023-10-20 23:51:20
+00026	番茄酱５００ｍｌ　　　　　　　	00064	031.64	2023-10-20 23:51:20
+00037	番茄酱５００ｍｌ　　　　　　　	00024	061.12	2023-10-20 23:51:20
+00025	番茄酱小包　　　　　　　　　　	00064	045.64	2023-10-20 23:51:20
+00036	番茄酱小包　　　　　　　　　　	00064	042.62	2023-10-20 23:51:20
+00024	美年达橙子味　　　　　　　　　	00062	012.44	2023-10-20 23:51:20
+00035	美年达橙子味　　　　　　　　　	00053	042.12	2023-10-20 23:51:20
+00023	美年达金桔味　　　　　　　　　	00052	432.24	2023-10-20 23:51:20
+00034	美年达金桔味　　　　　　　　　	00013	064.16	2023-10-20 23:51:20
+00021	薯条　　　　　　　　　　　　　	00012	023.41	2023-10-20 23:51:20
+00032	薯条　　　　　　　　　　　　　	00054	024.14	2023-10-20 23:51:20
+00000	达利园面包　　　　　　　　　　	00000	000.00	2023-10-20 23:51:20
+
+23-10-293 23:52 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:52 [main] INFO  ShopLog - Bill List
+ID			Good Name			Customer ID	Price		Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　	00053	016.35	2023-10-20 23:52:12
+00040	乐事波浪薯片袋咖喱味１００ｇ　	00024	146.64	2023-10-20 23:52:12
+00022	可口可乐　　　　　　　　　　　	00041	235.46	2023-10-20 23:52:12
+00033	可口可乐　　　　　　　　　　　	00024	014.64	2023-10-20 23:52:12
+00027	大波浪薯片　　　　　　　　　　	00014	025.36	2023-10-20 23:52:12
+00038	大波浪薯片　　　　　　　　　　	00013	024.64	2023-10-20 23:52:12
+00031	大波浪薯片味　　　　　　　　　	00043	061.51	2023-10-20 23:52:12
+00030	大波浪薯片咖喱味　　　　　　　	00012	014.41	2023-10-20 23:52:12
+00028	大波浪薯片烧烤味　　　　　　　	00053	062.44	2023-10-20 23:52:12
+00039	大波浪薯片烧烤味　　　　　　　	00025	023.64	2023-10-20 23:52:12
+00026	番茄酱５００ｍｌ　　　　　　　	00064	031.64	2023-10-20 23:52:12
+00037	番茄酱５００ｍｌ　　　　　　　	00024	061.12	2023-10-20 23:52:12
+00025	番茄酱小包　　　　　　　　　　	00064	045.64	2023-10-20 23:52:12
+00036	番茄酱小包　　　　　　　　　　	00064	042.62	2023-10-20 23:52:12
+00024	美年达橙子味　　　　　　　　　	00062	012.44	2023-10-20 23:52:12
+00035	美年达橙子味　　　　　　　　　	00053	042.12	2023-10-20 23:52:12
+00023	美年达金桔味　　　　　　　　　	00052	432.24	2023-10-20 23:52:12
+00034	美年达金桔味　　　　　　　　　	00013	064.16	2023-10-20 23:52:12
+00021	薯条　　　　　　　　　　　　　	00012	023.41	2023-10-20 23:52:12
+00032	薯条　　　　　　　　　　　　　	00054	024.14	2023-10-20 23:52:12
+00000	达利园面包　　　　　　　　　　	00000	000.00	2023-10-20 23:52:12
+
+23-10-293 23:52 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:52 [main] INFO  ShopLog - Bill List
+ID			Good Name			Customer ID	Price		Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　		00053		016.35	2023-10-20 23:52:51
+00040	乐事波浪薯片袋咖喱味１００ｇ　		00024		146.64	2023-10-20 23:52:51
+00022	可口可乐　　　　　　　　　　　		00041		235.46	2023-10-20 23:52:51
+00033	可口可乐　　　　　　　　　　　		00024		014.64	2023-10-20 23:52:51
+00027	大波浪薯片　　　　　　　　　　		00014		025.36	2023-10-20 23:52:51
+00038	大波浪薯片　　　　　　　　　　		00013		024.64	2023-10-20 23:52:51
+00031	大波浪薯片味　　　　　　　　　		00043		061.51	2023-10-20 23:52:51
+00030	大波浪薯片咖喱味　　　　　　　		00012		014.41	2023-10-20 23:52:51
+00028	大波浪薯片烧烤味　　　　　　　		00053		062.44	2023-10-20 23:52:51
+00039	大波浪薯片烧烤味　　　　　　　		00025		023.64	2023-10-20 23:52:51
+00026	番茄酱５００ｍｌ　　　　　　　		00064		031.64	2023-10-20 23:52:51
+00037	番茄酱５００ｍｌ　　　　　　　		00024		061.12	2023-10-20 23:52:51
+00025	番茄酱小包　　　　　　　　　　		00064		045.64	2023-10-20 23:52:51
+00036	番茄酱小包　　　　　　　　　　		00064		042.62	2023-10-20 23:52:51
+00024	美年达橙子味　　　　　　　　　		00062		012.44	2023-10-20 23:52:51
+00035	美年达橙子味　　　　　　　　　		00053		042.12	2023-10-20 23:52:51
+00023	美年达金桔味　　　　　　　　　		00052		432.24	2023-10-20 23:52:51
+00034	美年达金桔味　　　　　　　　　		00013		064.16	2023-10-20 23:52:51
+00021	薯条　　　　　　　　　　　　　		00012		023.41	2023-10-20 23:52:51
+00032	薯条　　　　　　　　　　　　　		00054		024.14	2023-10-20 23:52:51
+00000	达利园面包　　　　　　　　　　		00000		000.00	2023-10-20 23:52:51
+
+23-10-293 23:53 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:53 [main] INFO  ShopLog - Bill List
+ID			Good Name				Customer ID		Price		Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　		00053		016.35	2023-10-20 23:53:22
+00040	乐事波浪薯片袋咖喱味１００ｇ　		00024		146.64	2023-10-20 23:53:22
+00022	可口可乐　　　　　　　　　　　		00041		235.46	2023-10-20 23:53:22
+00033	可口可乐　　　　　　　　　　　		00024		014.64	2023-10-20 23:53:22
+00027	大波浪薯片　　　　　　　　　　		00014		025.36	2023-10-20 23:53:22
+00038	大波浪薯片　　　　　　　　　　		00013		024.64	2023-10-20 23:53:22
+00031	大波浪薯片味　　　　　　　　　		00043		061.51	2023-10-20 23:53:22
+00030	大波浪薯片咖喱味　　　　　　　		00012		014.41	2023-10-20 23:53:22
+00028	大波浪薯片烧烤味　　　　　　　		00053		062.44	2023-10-20 23:53:22
+00039	大波浪薯片烧烤味　　　　　　　		00025		023.64	2023-10-20 23:53:22
+00026	番茄酱５００ｍｌ　　　　　　　		00064		031.64	2023-10-20 23:53:22
+00037	番茄酱５００ｍｌ　　　　　　　		00024		061.12	2023-10-20 23:53:22
+00025	番茄酱小包　　　　　　　　　　		00064		045.64	2023-10-20 23:53:22
+00036	番茄酱小包　　　　　　　　　　		00064		042.62	2023-10-20 23:53:22
+00024	美年达橙子味　　　　　　　　　		00062		012.44	2023-10-20 23:53:22
+00035	美年达橙子味　　　　　　　　　		00053		042.12	2023-10-20 23:53:22
+00023	美年达金桔味　　　　　　　　　		00052		432.24	2023-10-20 23:53:22
+00034	美年达金桔味　　　　　　　　　		00013		064.16	2023-10-20 23:53:22
+00021	薯条　　　　　　　　　　　　　		00012		023.41	2023-10-20 23:53:22
+00032	薯条　　　　　　　　　　　　　		00054		024.14	2023-10-20 23:53:22
+00000	达利园面包　　　　　　　　　　		00000		000.00	2023-10-20 23:53:22
+
+23-10-293 23:53 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-293 23:53 [main] INFO  ShopLog - Bill List
+ID				Good Name			Customer ID		Price		Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　		00053		016.35	2023-10-20 23:53:51
+00040	乐事波浪薯片袋咖喱味１００ｇ　		00024		146.64	2023-10-20 23:53:51
+00022	可口可乐　　　　　　　　　　　		00041		235.46	2023-10-20 23:53:51
+00033	可口可乐　　　　　　　　　　　		00024		014.64	2023-10-20 23:53:51
+00027	大波浪薯片　　　　　　　　　　		00014		025.36	2023-10-20 23:53:51
+00038	大波浪薯片　　　　　　　　　　		00013		024.64	2023-10-20 23:53:51
+00031	大波浪薯片味　　　　　　　　　		00043		061.51	2023-10-20 23:53:51
+00030	大波浪薯片咖喱味　　　　　　　		00012		014.41	2023-10-20 23:53:51
+00028	大波浪薯片烧烤味　　　　　　　		00053		062.44	2023-10-20 23:53:51
+00039	大波浪薯片烧烤味　　　　　　　		00025		023.64	2023-10-20 23:53:51
+00026	番茄酱５００ｍｌ　　　　　　　		00064		031.64	2023-10-20 23:53:51
+00037	番茄酱５００ｍｌ　　　　　　　		00024		061.12	2023-10-20 23:53:51
+00025	番茄酱小包　　　　　　　　　　		00064		045.64	2023-10-20 23:53:51
+00036	番茄酱小包　　　　　　　　　　		00064		042.62	2023-10-20 23:53:51
+00024	美年达橙子味　　　　　　　　　		00062		012.44	2023-10-20 23:53:51
+00035	美年达橙子味　　　　　　　　　		00053		042.12	2023-10-20 23:53:51
+00023	美年达金桔味　　　　　　　　　		00052		432.24	2023-10-20 23:53:51
+00034	美年达金桔味　　　　　　　　　		00013		064.16	2023-10-20 23:53:51
+00021	薯条　　　　　　　　　　　　　		00012		023.41	2023-10-20 23:53:51
+00032	薯条　　　　　　　　　　　　　		00054		024.14	2023-10-20 23:53:51
+00000	达利园面包　　　　　　　　　　		00000		000.00	2023-10-20 23:53:51
+
+23-10-294 00:07 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:18 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:22 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:26 [main] INFO  ShopLog - 更新成功
+23-10-294 00:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:26 [main] ERROR ShopLog - Foreign Connect Failed
+23-10-294 00:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:26 [main] INFO  ShopLog - 更新成功
+23-10-294 00:27 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:27 [main] INFO  ShopLog - Bill List
+ID				Good Name			Customer ID		Price		Bill Date
+00029	乐事波浪薯片袋咖喱味１００ｇ　		00053		016.35	2023-10-21 00:27:14
+00040	乐事波浪薯片袋咖喱味１００ｇ　		00024		146.64	2023-10-21 00:27:14
+00022	可口可乐　　　　　　　　　　　		00041		235.46	2023-10-21 00:27:14
+00033	可口可乐　　　　　　　　　　　		00024		014.64	2023-10-21 00:27:14
+00027	大波浪薯片　　　　　　　　　　		00014		025.36	2023-10-21 00:27:14
+00038	大波浪薯片　　　　　　　　　　		00013		024.64	2023-10-21 00:27:14
+00031	大波浪薯片味　　　　　　　　　		00043		061.51	2023-10-21 00:27:14
+00030	大波浪薯片咖喱味　　　　　　　		00012		014.41	2023-10-21 00:27:14
+00028	大波浪薯片烧烤味　　　　　　　		00053		062.44	2023-10-21 00:27:14
+00039	大波浪薯片烧烤味　　　　　　　		00025		023.64	2023-10-21 00:27:14
+00026	番茄酱５００ｍｌ　　　　　　　		00064		031.64	2023-10-21 00:27:14
+00037	番茄酱５００ｍｌ　　　　　　　		00024		061.12	2023-10-21 00:27:14
+00025	番茄酱小包　　　　　　　　　　		00064		045.64	2023-10-21 00:27:14
+00036	番茄酱小包　　　　　　　　　　		00064		042.62	2023-10-21 00:27:14
+00043	番茄酱小包　　　　　　　　　　		00235		034.30	2023-10-21 00:27:14
+00035	美年达橙子味　　　　　　　　　		00053		042.12	2023-10-21 00:27:14
+00023	美年达金桔味　　　　　　　　　		00052		432.24	2023-10-21 00:27:14
+00034	美年达金桔味　　　　　　　　　		00013		064.16	2023-10-21 00:27:14
+00021	薯条　　　　　　　　　　　　　		00012		023.41	2023-10-21 00:27:14
+00032	薯条　　　　　　　　　　　　　		00054		024.14	2023-10-21 00:27:14
+00000	达利园面包　　　　　　　　　　		00000		000.00	2023-10-21 00:27:14
+
+23-10-294 00:27 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=21, goodId=10, customerId=12, price=23.41, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=22, goodId=16, customerId=41, price=235.46, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=23, goodId=17, customerId=52, price=432.24, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=25, goodId=19, customerId=64, price=45.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=26, goodId=21, customerId=64, price=31.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=27, goodId=22, customerId=14, price=25.36, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=28, goodId=24, customerId=53, price=62.44, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=29, goodId=26, customerId=53, price=16.35, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=30, goodId=30, customerId=12, price=14.41, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=31, goodId=32, customerId=43, price=61.51, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=32, goodId=10, customerId=54, price=24.14, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=33, goodId=16, customerId=24, price=14.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=34, goodId=17, customerId=13, price=64.16, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=35, goodId=18, customerId=53, price=42.12, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=36, goodId=19, customerId=64, price=42.62, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=37, goodId=21, customerId=24, price=61.12, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=38, goodId=22, customerId=13, price=24.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=39, goodId=24, customerId=25, price=23.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=40, goodId=26, customerId=24, price=146.64, billDate=2023-10-21 00:27:24}
+23-10-294 00:27 [main] INFO  ShopLog - Bill{id=43, goodId=19, customerId=235, price=34.3, billDate=2023-10-21 00:27:24}
+23-10-294 00:28 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:28 [main] INFO  ShopLog - 删除成功
+23-10-294 00:28 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=21, goodId=10, customerId=12, price=23.41, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=22, goodId=16, customerId=41, price=235.46, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=25, goodId=19, customerId=64, price=45.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=26, goodId=21, customerId=64, price=31.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=27, goodId=22, customerId=14, price=25.36, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=28, goodId=24, customerId=53, price=62.44, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=29, goodId=26, customerId=53, price=16.35, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=30, goodId=30, customerId=12, price=14.41, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=31, goodId=32, customerId=43, price=61.51, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=32, goodId=10, customerId=54, price=24.14, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=33, goodId=16, customerId=24, price=14.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=34, goodId=17, customerId=13, price=64.16, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=35, goodId=18, customerId=53, price=42.12, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=36, goodId=19, customerId=64, price=42.62, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=37, goodId=21, customerId=24, price=61.12, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=38, goodId=22, customerId=13, price=24.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=39, goodId=24, customerId=25, price=23.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=40, goodId=26, customerId=24, price=146.64, billDate=2023-10-21 00:28:35}
+23-10-294 00:28 [main] INFO  ShopLog - Bill{id=43, goodId=19, customerId=235, price=34.3, billDate=2023-10-21 00:28:35}
+23-10-294 00:29 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:29 [main] ERROR ShopLog - Foreign Connect Failed
+23-10-294 00:29 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:29 [main] ERROR ShopLog - Foreign Connect Failed
+23-10-294 00:29 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=21, goodId=10, customerId=12, price=23.41, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=22, goodId=16, customerId=41, price=235.46, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=25, goodId=19, customerId=64, price=45.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=26, goodId=21, customerId=64, price=31.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=27, goodId=22, customerId=14, price=25.36, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=28, goodId=24, customerId=53, price=62.44, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=29, goodId=26, customerId=53, price=16.35, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=30, goodId=30, customerId=12, price=14.41, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=31, goodId=32, customerId=43, price=61.51, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=32, goodId=10, customerId=54, price=24.14, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=33, goodId=16, customerId=24, price=14.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=34, goodId=17, customerId=13, price=64.16, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=35, goodId=18, customerId=53, price=42.12, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=36, goodId=19, customerId=64, price=42.62, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=37, goodId=21, customerId=24, price=61.12, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=38, goodId=22, customerId=13, price=24.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=39, goodId=24, customerId=25, price=23.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=40, goodId=26, customerId=24, price=146.64, billDate=2023-10-21 00:29:39}
+23-10-294 00:29 [main] INFO  ShopLog - Bill{id=43, goodId=19, customerId=235, price=34.3, billDate=2023-10-21 00:29:39}
+23-10-294 00:30 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:30 [main] ERROR ShopLog - com.harvey.exc.ForeignKeyException: Foreign Connect Failed
+23-10-294 00:30 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:30 [main] ERROR ShopLog - org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'stock' in 'class com.harvey.pojo.Bill'
+### The error may exist in com/harvey/mapper/BillMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update bill          SET price = ?,                                                        customer_id = ?,                                           stock = ?          where         id=?         ;
+### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'stock' in 'class com.harvey.pojo.Bill'
+23-10-294 00:32 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:32 [main] ERROR ShopLog - org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'good_id' in 'class com.harvey.pojo.Bill'
+### The error may exist in com/harvey/mapper/BillMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update bill          SET price = ?,                                                        customer_id = ?,                                           good_id = ?          where         id=?         ;
+### Cause: org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'good_id' in 'class com.harvey.pojo.Bill'
+23-10-294 00:33 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:33 [main] INFO  ShopLog - 更新成功
+23-10-294 00:33 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-10-294 00:33 [main] ERROR ShopLog - org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bill`, CONSTRAINT `fk_bill_good_id` FOREIGN KEY (`good_id`) REFERENCES `good` (`id`))
+### The error may exist in com/harvey/mapper/BillMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: update bill          SET price = ?,                                                        customer_id = ?,                                           good_id = ?          where         id=?         ;
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bill`, CONSTRAINT `fk_bill_good_id` FOREIGN KEY (`good_id`) REFERENCES `good` (`id`))

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.harvey.mapper.BillMapper"><!--名字写代理接口-->
+
+
+    <resultMap id="BillMap" type="Bill">
+        <result column="id" property="id"/>
+        <result column="bill.id" property="id"/>
+        <result column="good_id" property="goodId"/>
+        <result column="good_name" property="goodName"/>
+        <result column="price" property="price"/>
+        <result column="customer_id" property="customerId"/>
+        <result column="bill_Date" property="billDate"/>
+    </resultMap>
+
+
+    <insert id="addBill" useGeneratedKeys="true" keyProperty="id">
+        insert into bill(good_id,price,customer_id,bill_date)
+        values(#{goodId},#{price},#{customerId},#{billDate});
+    </insert>
+
+
+    <delete id="delById">
+        delete from bill where
+        id = #{id}
+    </delete>
+
+    <delete id="delByIds">
+        delete from bill where
+        id in
+        <foreach
+                collection="array"
+                item="id"
+                separator=","
+                open="("
+                close=")">
+            #{id}
+        </foreach>
+        ;
+        <!--删除了个寂寞也是删,离谱-->
+    </delete>
+
+    <update id="update">
+        update bill
+        <set>
+            <if test="price!=null">
+                price = #{price},
+            </if>
+            <!--↓这里用and而不是&&-->
+            <if test="customerId!=null and customerId!= '' ">
+                customer_id = #{customerId},
+            </if>
+            <if test="goodId!=null and goodId!=''">
+                good_id = #{goodId},
+            </if>
+            <if test="billDate!=null and billDate!=''">
+                bill_date = #{billDate},
+            </if>
+        </set>
+        where
+        id=#{id}
+        ;
+        <!--如果good不写id,id默认为0,会删除id = 0 的 商品 不符合-->
+
+    </update>
+
+    <update id="updateByMessage">
+        update bill
+        <set>
+            <if test="price!=null">
+                price = #{price},
+            </if>
+            <!--↓这里用and而不是&&-->
+            <if test="customerId!=null and customerId!= '' ">
+                customer_id = #{customerId},
+            </if>
+            <if test="goodId!=null and goodId!=''">
+                good_id = #{goodId},
+            </if>
+            <if test="billData!=null and billData!=''">
+                bill_date = #{billDate},
+            </if>
+        </set>
+        where
+        id=#{id}
+        ;
+        <!--如果good不写id,id默认为0,会删除id = 0 的 商品 不符合-->
+
+    </update>
+
+    <!--id是这一句命令的唯一标识,不能重复-->
+    <select id="selectAll" resultMap="BillMap"><!--起了别名之后就方便了-->
+        select id,good_id,customer_id,price,bill_date from bill ;
+    </select>
+
+    <select id="selectWithGoodName" resultMap="BillMap"><!--起了别名之后就方便了-->
+        select
+            bill.id as id,
+            good.name as good_Name,
+            customer_id,
+            bill.price as price,
+            bill_date
+        from bill RIGHT OUTER JOIN good
+        ON good.id = bill.good_id;
+
+    </select>
+
+    <select id="selectById" parameterType="Integer" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where id like concat('%',#{id},'%');
+    </select>
+
+    <select id="selectByIds" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where
+        <foreach
+                collection="array"
+                item="id"
+                separator=" or ">
+            id like concat('%',#{id},'%')
+        </foreach>
+        ;
+    </select>
+
+    <select id="selectByGoodId" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where good_id like concat('%',#{goodId},'%');
+    </select>
+
+    <select id="selectByGoodIds" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where
+        <foreach
+                collection="array"
+                item="goodId"
+                separator=" or ">
+            good_id like concat('%',#{goodId},'%')
+        </foreach>
+        ;
+    </select>
+
+    <select id="selectByCustomerId" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where customer_id like concat('%',#{customerId},'%');
+    </select>
+
+    <select id="selectByCustomerIds" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill where
+        <foreach
+                collection="array"
+                item="customerId"
+                separator=" or ">
+            customer_id like concat('%',#{customerId},'%')
+        </foreach>
+        ;
+    </select>
+
+
+    <select id="selectByPrices" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            <![CDATA[
+                price<=#{high} and price >= #{low}
+            ]]>
+        </where>
+    </select>
+
+    <select id="selectByPrice" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            price = #{price}
+        </where>
+    </select>
+
+
+    <select id="selectByDate" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            <![CDATA[
+                <!-- TODO -->
+            ]]>
+        </where>
+    </select>
+
+    <select id="selectDuration" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            <!-- TODO -->
+        </where>
+    </select>
+    <select id="selectBefore" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            <!-- TODO -->
+        </where>
+    </select>
+    <select id="selectAfter" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill
+        <where>
+            <!-- TODO -->
+        </where>
+    </select>
+
+
+    <select id="selectByCondition" resultMap="BillMap">
+
+        select id,good_id,customer_id,price,bill_date
+        from Bill
+        <where>
+            <if test="price!=null">
+                price = #{price},
+            </if>
+            <!--↓这里用and而不是&&-->
+            <if test="customerId!=null and customerId!= '' ">
+                or customer_id = #{customerId},
+            </if>
+            <if test="goodId!=null and goodId!=''">
+                or stock = #{stock},
+            </if>
+            <if test="billData!=null and billData!=''">
+                or bill_date = #{billDate},
+            </if>
+        </where>
+
+    </select>
+
+
+    <select id="orderByAsc" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill order by
+        <choose>
+            <when test="column == 'GOOD_ID'">
+                good_id
+            </when>
+            <when test="column == 'CUSTOMER_ID'">
+                customer_id
+            </when>
+            <when test="column == 'PRICE'">
+                price
+            </when>
+            <when test="column == 'BILL_DATE'">
+                bill_date
+            </when>
+            <otherwise>
+                id
+            </otherwise>
+        </choose>
+        asc;
+    </select>
+    <select id="orderByDesc" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill order by
+        <choose>
+            <when test="column == 'GOOD_ID'">
+                good_id
+            </when>
+            <when test="column == 'CUSTOMER_ID'">
+                customer_id
+            </when>
+            <when test="column == 'PRICE'">
+                price
+            </when>
+            <when test="column == 'BILL_DATE'">
+                bill_date
+            </when>
+            <otherwise>
+                id
+            </otherwise>
+        </choose>
+        desc;
+    </select>
+
+    <select id="dividePage" resultMap="BillMap">
+        select id,good_id,customer_id,price,bill_date
+        from bill limit #{start},#{len};
+    </select>
+
+    <select id="getLen" resultType="int">
+        select count(*) from bill
+    </select>
+</mapper>
