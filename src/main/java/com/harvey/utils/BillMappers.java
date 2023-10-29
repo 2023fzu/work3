@@ -68,6 +68,7 @@ public class BillMappers {
     }
 
     public boolean del(int id) throws ForeignKeyException {
+
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             try {
                 // 获取BillMapper接口的代理对象
@@ -82,6 +83,9 @@ public class BillMappers {
     }
 
     public void add(Bill bill) throws ForeignKeyException {
+        if(bill==null){
+            return;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             try {
                 // 获取BillMapper接口的代理对象
@@ -94,6 +98,9 @@ public class BillMappers {
     }
 
     public int update(Bill bill) throws ForeignKeyException {
+        if(bill==null){
+            return 0;
+        }
         int num;
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             // 获取BillMapper接口的代理对象

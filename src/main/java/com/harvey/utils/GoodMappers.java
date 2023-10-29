@@ -86,6 +86,10 @@ public class GoodMappers {
      */
     public void add(String name, double price, int stock)
             throws StockMinusException, NameExistException {
+        if(name==null){
+            //可是我一想,name==null,也可以加给MySQL吧?逻辑上没问题吧?
+            return ;
+        }
         if (stock < 0) {
             // 库存为负,抛出异常
             throw new StockMinusException(name, stock);
@@ -143,6 +147,9 @@ public class GoodMappers {
      */
     public int delById(int[] ids)
             throws IdNotFoundException, ForeignKeyException {
+        if(ids==null){
+            return 0;
+        }
         int num = 0; // num用于取得最后的成功删除的记录总数
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
@@ -177,6 +184,9 @@ public class GoodMappers {
      * @throws ForeignKeyException 删除了外键关联的元素时抛出异常
      */
     public int delByIds(int[] ids) throws ForeignKeyException {
+        if(ids==null){
+            return 0;
+        }
         int num;// num默认为0,idea说它冗余的赋值,可我觉得去掉会导致可读性变差
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
@@ -243,7 +253,9 @@ public class GoodMappers {
             throws IdNotFoundException, NameExistException {
         String name = good.getName();
         int id = good.getId();
-
+        if(name==null){
+            return false;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
             try {
@@ -295,6 +307,9 @@ public class GoodMappers {
      * @return 查询到的id符合的所有的记录
      */
     public List<Good> selectByIds(int[] ids) {
+        if(ids==null){
+            return null;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
             return goodMapper.selectByIds(ids);
@@ -308,6 +323,9 @@ public class GoodMappers {
      * @return 查询到的name符合的所有的记录
      */
     public List<Good> selectByName(String name) {
+        if(name==null){
+            return null;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
             return goodMapper.selectByName(name);
@@ -321,6 +339,9 @@ public class GoodMappers {
      * @return 查询到的name符合的所有的记录
      */
     public List<Good> selectByNames(String[] names) {
+        if(names==null){
+            return null;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
             return goodMapper.selectByNames(names);
@@ -421,6 +442,9 @@ public class GoodMappers {
      *
      * */
     public List<Good> selectByCondition(Map<String,Object> map) {
+        if(map==null){
+            return null;
+        }
         // 因为要遍历Map,对元素做判断,实现有点麻烦,还没有意义,所以果断放弃做异常
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
@@ -438,6 +462,9 @@ public class GoodMappers {
      * @return 返回记录的集合
      * */
     public List<Good> orderBy(GoodColumn column, boolean isAsc) {
+        if(column==null){
+            return null;
+        }
         GoodColumn[] columns = {column} ;
         boolean[] asc = {isAsc} ;
 
@@ -466,6 +493,9 @@ public class GoodMappers {
      * 但是异常很难做,字段对不对啊...等等,我好像可以了!
      * */
     public List<Good> orderBy(GoodColumn[] columns, boolean[] isAsc) {
+        if (columns==null){
+            return null;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
 
             //这里就不抛出异常了
@@ -565,6 +595,9 @@ public class GoodMappers {
      * @return 返回排序分页后的list
      * */
     public List<List<Good>> dividePagesOrderBy(GoodColumn column,boolean isAsc,int len) {
+        if (column==null){
+            return null;
+        }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             GoodMapper goodMapper = sqlSession.getMapper(GoodMapper.class);
             int length = goodMapper.getLen();

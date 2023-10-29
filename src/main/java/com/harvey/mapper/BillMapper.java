@@ -42,6 +42,8 @@ public interface BillMapper {
 
     int update(Bill bill);
 
+
+
     //查
     List<Bill> selectAll();
     List<Bill> selectWithGoodName();
