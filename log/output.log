@@ -1223,3 +1223,5 @@ ID				Good Name			Customer ID		Price		Bill Date
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`shop`.`bill`, CONSTRAINT `fk_bill_good_id` FOREIGN KEY (`good_id`) REFERENCES `good` (`id`))
 23-10-295 11:55 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
 23-10-295 11:55 [main] ERROR ShopLog - Foreign Connect Failed
+23-11-322 16:53 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-11-322 16:53 [main] INFO  ShopLog - 添加成功

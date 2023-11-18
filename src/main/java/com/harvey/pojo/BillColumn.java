@@ -1,6 +1,5 @@
 package com.harvey.pojo;
 
-import sun.awt.CustomCursor;
 
 /**
  * @author HarveyBlocks

@@ -24,7 +24,7 @@ public class BillMappers {
     private static final BillMappers BILL_MAPPERS;
 
     // sqlSession的工厂方法,方便本类中的方法少写一点重复的过程
-    private static SqlSessionFactory sqlSessionFactory;
+    private static SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getFactory();
 
     // 静态内部类,用来实例化goodMappers,因为有个异常要抓取
     static {
@@ -36,15 +36,9 @@ public class BillMappers {
     }
 
     /**
-     * 为了这碟醋,我特地包了这盘饺子
-     * 总之就是做连携MyBatis和数据库等等的前期准备
-     *
      * @throws IOException getResourceAsStream抛出的异常
      */
     private BillMappers() throws IOException {
-        String resource = "mybatis-config.xml";
-        InputStream inputStream = Resources.getResourceAsStream(resource);
-        sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
     }
 
     /**
