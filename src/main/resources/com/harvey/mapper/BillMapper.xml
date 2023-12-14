@@ -10,6 +10,7 @@
 
     <resultMap id="BillMap" type="Bill">
         <result column="id" property="id"/>
+        <result column="bill_id" property="id"/>
         <result column="gb_bill_id" property="id"/>
         <result column="union_price" property="price"/>
         <result column="customer_id" property="customerId"/>
@@ -89,51 +90,55 @@
 
     </update>
 
+
+    <!--
+
+    SELECT gb.bill_id as bill_id,
+b.customer_id as customer_id,
+b.bill_date as bill_date,
+SUM(gb.count) AS union_count,
+SUM(gb.count * g.price) AS union_price
+FROM good_bill gb
+JOIN bill b ON b.id = gb.bill_id
+JOIN good g ON g.id = gb.good_id
+GROUP BY gb.bill_id;
+    -->
     <!--id是这一句命令的唯一标识,不能重复-->
     <select id="selectAll" resultMap="BillMap"><!--起了别名之后就方便了-->
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id
-        ) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
-        group by gb.bill_id;
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
+        GROUP BY gb.bill_id;
     </select>
 
 
     <select id="selectById" parameterType="Integer" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id
-        ) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
         where bill_id like concat('%',#{id},'%')
-        group by gb.bill_id;
+        GROUP BY gb.bill_id;
     </select>
 
     <select id="selectByIds" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id
-        ) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
         where
         <foreach
                 collection="array"
@@ -141,43 +146,36 @@
                 separator=" or ">
             bill_id like concat('%',#{id},'%')
         </foreach>
-        group by gb.bill_id;
+        GROUP BY gb.bill_id;
     </select>
 
 
     <select id="selectByCustomerId" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id
-        ) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
         where (select b.customer_id
         from bill b
         where b.id = gb.bill_id
         ) like concat('%',#{customerId},'%')
-        group by gb.bill_id;
+        GROUP BY gb.bill_id;
     </select>
 
     <select id="selectByCustomerIds" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id
-        ) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
         where
-
         <foreach
                 collection="array"
                 item="customerId"
@@ -187,22 +185,31 @@
             where b.id = gb.bill_id
             ) like concat('%',#{customerId},'%')
         </foreach>
-        group by gb.bill_id;
+        GROUP BY gb.bill_id
     </select>
 
+    <!--
+SELECT gb.bill_id as bill_id,
+b.customer_id as customer_id,
+b.bill_date as bill_date,
+SUM(gb.count) AS union_count,
+SUM(gb.count * g.price) AS union_price
+FROM good_bill gb
+JOIN bill b ON b.id = gb.bill_id
+JOIN good g ON g.id = gb.good_id
+GROUP BY gb.bill_id;
+    -->
 
     <select id="orderByAsc" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
-        group by gb.bill_id
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
+        GROUP BY gb.bill_id
         order by
         <choose>
             <when test="column == 'COUNT'">
@@ -224,17 +231,15 @@
         asc;
     </select>
     <select id="orderByDesc" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
-        group by gb.bill_id
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
+        GROUP BY gb.bill_id
         order by
         <choose>
             <when test="column == 'COUNT'">
@@ -257,17 +262,15 @@
     </select>
 
     <select id="dividePage" resultMap="BillMap">
-        select gb.bill_id gb_bill_id,
-        (select b.customer_id
-        from bill b
-        where b.id = gb.bill_id) customer,
-        sum(gb.count) union_count,
-        sum(gb.count * (select g.price
-        from good g
-        where g.id = gb.good_id)
-        ) as union_price
-        from good_bill gb
-        group by gb.bill_id
+        SELECT gb.bill_id as bill_id,
+        b.customer_id as customer_id,
+        b.bill_date as bill_date,
+        SUM(gb.count) AS union_count,
+        SUM(gb.count * g.price) AS union_price
+        FROM good_bill gb
+        JOIN bill b ON b.id = gb.bill_id
+        JOIN good g ON g.id = gb.good_id
+        GROUP BY gb.bill_id
         limit #{start},#{len};
     </select>
 

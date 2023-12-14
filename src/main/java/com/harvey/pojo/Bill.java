@@ -1,8 +1,6 @@
 package com.harvey.pojo;
 
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import java.sql.Date;
 import java.util.List;
 
 /**
@@ -55,9 +53,15 @@ public class Bill {
     }
 
 
+    public String goodsStrFormat(){
+        StringBuilder str = new StringBuilder();
+        for (Good good:goods){
+            str.append(good.toString()).append('\n');
+        }
+        return String.valueOf(str);
+    }
 
-
-    public String toStrWithGoodName(){
+    public String strFormat(){
         String formatStr = this.getClass().getSimpleName() +
                 "{" +
                 "id=" + "%05d" +
@@ -67,6 +71,7 @@ public class Bill {
                 ", billDate=" + "%s"+
                 '}';
         return String.format(formatStr, id,count, customerId, price,billDate);
+
     }
 
     private static final int HALF_SPACE = 0x20;

@@ -60,6 +60,8 @@ public class BillTest {
         bill.setId(1);
         BILL_MAPPERS.setGoods(bill);
         LOGGER.info(bill.toString());
+        LOGGER.info('\n'+bill.goodsStrFormat());
+        LOGGER.info("----------------------");
         //对toString还要做一个更改
         BILL_MAPPERS.selectAll().forEach(s->LOGGER.info(s.toString()));
     }

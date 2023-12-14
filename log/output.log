@@ -2808,3 +2808,1136 @@ goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=
 23-12-348 19:35 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
 23-12-348 19:35 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
 23-12-348 19:35 [main] INFO  ShopLog - 添加成功
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:23 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:23 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:23 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:23 [main] INFO  ShopLog - Bill{id=0, count=15, customerId=1, price=63.8, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:23 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.delById - ==>  Preparing: delete from bill where id = ?
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.delById - ==> Parameters: 23(Integer)
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.delById - <==    Updates: 0
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@737edcfa]
+23-12-348 20:23 [main] INFO  ShopLog - 删除成功
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:23 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:23 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7af707e0]
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.addBill - ==>  Preparing: insert into bill(customer_id,bill_date) values(?,?);
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.addBill - ==> Parameters: 7(Integer), 2023-12-14 20:23:52.844(Timestamp)
+23-12-348 20:23 [main] DEBUG com.harvey.mapper.BillMapper.addBill - <==    Updates: 1
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.addGoods - ==>  Preparing: insert into good_bill(bill_id,good_id,count) value (?,?,?) , (?,?,?) , (?,?,?)
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.addGoods - ==> Parameters: 1(Integer), 1(Integer), 1(Integer), 1(Integer), 2(Integer), 1(Integer), 1(Integer), 3(Integer), 2(Integer)
+23-12-348 20:23 [main] DEBUG c.harvey.mapper.BillMapper.addGoods - <==    Updates: 3
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7af707e0]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7af707e0]
+23-12-348 20:23 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7af707e0]
+23-12-348 20:23 [main] INFO  ShopLog - 添加成功
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:24 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:24 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:24 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:24 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:24 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:24 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:24 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:24 [main] INFO  ShopLog - Bill{id=0, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:24 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:26 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:26 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:26 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:26 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:26 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:26 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:26 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:26 [main] INFO  ShopLog - Bill{id=0, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:26 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:28 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:28 [main] INFO  ShopLog - ----------------------
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:28 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:28 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=0, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:28 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:28 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:28 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:28 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:28 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:28 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:29 [main] INFO  ShopLog - ----------------------
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3c5a54b7]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55f45b92]
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:29 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:29 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:29 [main] INFO  ShopLog - ----------------------
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:29 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 0(Integer)
+23-12-348 20:29 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 0
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[]}
+23-12-348 20:29 [main] INFO  ShopLog - Bill{id=0, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[]}
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  w
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:31 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:31 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:31 [main] INFO  ShopLog - ----------------------
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:31 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:31 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 2(Integer)
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 3
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 4(Integer)
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 3(Integer)
+23-12-348 20:31 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:31 [main] INFO  ShopLog - Bill{id=2, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}]}
+23-12-348 20:31 [main] INFO  ShopLog - Bill{id=4, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}]}
+23-12-348 20:31 [main] INFO  ShopLog - Bill{id=1, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:31 [main] INFO  ShopLog - Bill{id=3, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  }
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:39 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:39 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:39 [main] INFO  ShopLog - Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}
+Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}
+Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}
+Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}
+
+23-12-348 20:39 [main] INFO  ShopLog - ----------------------
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:39 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:39 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 2(Integer)
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 3
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 4(Integer)
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 3(Integer)
+23-12-348 20:39 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fa06f52]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@341a8659]
+23-12-348 20:39 [main] INFO  ShopLog - Bill{id=2, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}]}
+23-12-348 20:39 [main] INFO  ShopLog - Bill{id=4, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}]}
+23-12-348 20:39 [main] INFO  ShopLog - Bill{id=1, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:39 [main] INFO  ShopLog - Bill{id=3, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Bill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Good.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodBill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Bill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 �	  }
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/BillColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 <	  -
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/Good.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 � ] ^
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodBill.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/pojo/GoodColumn.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 8	  *
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Bill matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.BillColumn matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.Good matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodBill matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.pojo.GoodColumn matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: BillMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: GoodMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 5 3 4 addBill (Lcom/harvey/pojo/Bill;)I addGoods (Ljava/util/List;)V 	Signature /(Ljava/util/List<Lcom/harvey/pojo/GoodBill;>;)V "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value list delById (I)I delByIds ([I)I updateByMessage (IILjava/util/Date;)I id 
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/BillMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.class
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 D B C addGood (Lcom/harvey/pojo/Good;)V delById (I)I delByIds ([I)I update (Lcom/harvey/pojo/Good;)I 	selectAll ()Ljava/util/List; 	Signature *()Ljava/util/List<Lcom/harvey/pojo/Good;>; 
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/C:/Users/27970/Desktop/IT/JDK/work3/target/classes/com/harvey/mapper/GoodMapper.xml
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.BillMapper matches criteria [is assignable to Object]
+23-12-348 20:40 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.harvey.mapper.GoodMapper matches criteria [is assignable to Object]
+23-12-348 20:40 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] INFO  ShopLog - Bill{id=1, count=0, customerId=0, price=0.0, billDate=null, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:40 [main] INFO  ShopLog - 
+Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}
+Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}
+Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}
+Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}
+
+23-12-348 20:40 [main] INFO  ShopLog - ----------------------
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==>  Preparing: SELECT gb.bill_id as bill_id, b.customer_id as customer_id, b.bill_date as bill_date, SUM(gb.count) AS union_count, SUM(gb.count * g.price) AS union_price FROM good_bill gb JOIN bill b ON b.id = gb.bill_id JOIN good g ON g.id = gb.good_id GROUP BY gb.bill_id;
+23-12-348 20:40 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - ==> Parameters: 
+23-12-348 20:40 [main] DEBUG c.harvey.mapper.BillMapper.selectAll - <==      Total: 4
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 2(Integer)
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 3
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 1(Integer)
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 4
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 3(Integer)
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==>  Preparing: select g.id, g.name, g.price, g.stock from good g where g.id in (select gb.good_id from good_bill gb where gb.bill_id like concat('%',?,'%'));
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - ==> Parameters: 4(Integer)
+23-12-348 20:40 [main] DEBUG c.h.mapper.BillMapper.selectGoods - <==      Total: 1
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1d2644e3]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4010d494]
+23-12-348 20:40 [main] INFO  ShopLog - Bill{id=2, count=9, customerId=2, price=98.7, billDate=2023-12-15 01:10:53.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}]}
+23-12-348 20:40 [main] INFO  ShopLog - Bill{id=1, count=19, customerId=1, price=83.5, billDate=2023-10-02 21:21:03.0, 
+goods=[Good{id=00001, name=可口可乐５００ｍｌ　　　　　　, price=003.00, stock=0300}, Good{id=00002, name=百事可乐５００ｍｌ　　　　　　, price=002.70, stock=0500}, Good{id=00003, name=乐事烧烤味薯片　　　　　　　　, price=007.00, stock=0120}, Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:40 [main] INFO  ShopLog - Bill{id=3, count=2, customerId=3, price=14.0, billDate=2023-12-14 01:13:04.0, 
+goods=[Good{id=00004, name=乐事孜然味薯片　　　　　　　　, price=007.00, stock=0210}]}
+23-12-348 20:40 [main] INFO  ShopLog - Bill{id=4, count=1, customerId=2, price=15.0, billDate=2023-06-14 01:11:11.0, 
+goods=[Good{id=00000, name=番茄酱３００ｍｌ　　　　　　　, price=015.00, stock=0020}]}
