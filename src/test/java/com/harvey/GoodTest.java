@@ -56,7 +56,11 @@ public class GoodTest {
         try {
             int[] ids2 = {26, 32, 14};
             int i = GOOD_MAPPERS.delByIds(ids2);
-            LOGGER.info("删除" + i + "项,删除成功");
+            if(i==0){
+                LOGGER.info("没有什么可以删除的");
+            }else {
+                LOGGER.info("删除" + i + "项,删除成功");
+            }
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
             LOGGER.error("删除失败");
@@ -189,6 +193,14 @@ public class GoodTest {
         LOGGER.info("-----------tail-----------");
         GOOD_MAPPERS.tail(2).forEach(g->LOGGER.info(g.toString()));
 
+    }
+
+    @Test
+    public void testOrders(){
+        GoodColumn[] columns = new GoodColumn[]{GoodColumn.ID,GoodColumn.PRICE};
+        boolean[] isAsc = new boolean[]{true,false};
+        List<Good> goods = GOOD_MAPPERS.orderBy(columns,isAsc);
+        goods.forEach(System.out::println);
     }
 
 }

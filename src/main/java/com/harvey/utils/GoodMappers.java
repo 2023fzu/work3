@@ -479,7 +479,7 @@ public class GoodMappers {
      * 2. 参数传入List,先后顺序
      * 3. 再建一个类,两个属性:字段名,升降
      * 4. 第三点直接把我劝退,我放弃
-     * 5. <foreach>
+     * 5. <foreach></foreach>
      * Maybe可以想python一样两个表作为参数,一一对应
      * 但是异常很难做,字段对不对啊...等等,我好像可以了!
      * */

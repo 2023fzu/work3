@@ -3,12 +3,13 @@ package com.harvey.utils;
 import com.harvey.exc.ForeignKeyException;
 import com.harvey.mapper.BillMapper;
 import com.harvey.pojo.Bill;
-import org.apache.ibatis.io.Resources;
+import com.harvey.pojo.Good;
+import com.harvey.pojo.GoodBill;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
 import java.io.IOException;
-import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -76,14 +77,25 @@ public class BillMappers {
         return true;
     }
 
-    public void add(Bill bill) throws ForeignKeyException {
-        if(bill==null){
+    public void add(Bill bill,int[] ids,int[] counts) throws ForeignKeyException {
+        if (bill == null) {
             return;
+        }
+        if (ids.length!=counts.length){
+            throw new IllegalArgumentException("length of ids isn,t equals to counts'");
         }
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             try {
                 // 获取BillMapper接口的代理对象
-                sqlSession.getMapper(BillMapper.class).addBill(bill);
+                String[] map = new String[ids.length];
+
+                BillMapper mapper = sqlSession.getMapper(BillMapper.class);
+                int billId = mapper.addBill(bill);
+                List<GoodBill> list = new ArrayList<>();
+                for (int i = 0; i < counts.length; i++) {
+                    list.add(new GoodBill(billId,ids[i],counts[i]));
+                }
+                mapper.addGoods(list);
                 sqlSession.commit();
             } catch (Exception e) {
                 throw new ForeignKeyException();
@@ -91,8 +103,8 @@ public class BillMappers {
         }
     }
 
-    public int update(Bill bill) throws ForeignKeyException {
-        if(bill==null){
+    public int update(Bill bill) throws Exception {
+        if (bill == null) {
             return 0;
         }
         int num;
@@ -100,7 +112,7 @@ public class BillMappers {
             // 获取BillMapper接口的代理对象
             num = sqlSession.getMapper(BillMapper.class).update(bill);
             sqlSession.commit();
-        } catch (Exception e) {
+        } catch (Exception e){
             throw new ForeignKeyException();
         }
         return num;
@@ -115,19 +127,17 @@ public class BillMappers {
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             // 获取BillMapper接口的代理对象
             BillMapper billMapper = sqlSession.getMapper(BillMapper.class);
-            return billMapper.selectAll();
+            List<Bill> bills = billMapper.selectAll();
+            bills.forEach(this::setGoods);
+            return bills;
         }
     }
 
-
-    /**
-     *
-     */
-    public List<Bill> selectGoodName() {
+    public void setGoods(Bill bill) {
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
-            // 获取BillMapper接口的代理对象
             BillMapper billMapper = sqlSession.getMapper(BillMapper.class);
-            return billMapper.selectWithGoodName();
+            List<Good> goods = billMapper.selectGoods(bill.getId());
+            bill.setGoods(goods);
         }
     }
 }

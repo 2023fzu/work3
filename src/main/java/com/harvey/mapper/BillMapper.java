@@ -2,6 +2,7 @@ package com.harvey.mapper;
 
 import com.harvey.pojo.Bill;
 import com.harvey.pojo.Good;
+import com.harvey.pojo.GoodBill;
 import com.harvey.pojo.GoodColumn;
 import org.apache.ibatis.annotations.Param;
 
@@ -16,7 +17,8 @@ import java.util.Objects;
  **/
 public interface BillMapper {
     //增
-    void addBill(Bill bill);
+    int addBill(Bill bill);
+    void addGoods(@Param("list") List<GoodBill> list);
     //删
 
     /*
@@ -35,8 +37,8 @@ public interface BillMapper {
 
     //改
     int updateByMessage(
-            @Param("id") int id, @Param("goodId") int goodId,
-            @Param("price") double price, @Param("customerId") int  customerId,
+            @Param("id") int id,
+            @Param("customerId") int  customerId,
             @Param("billDate") Date billDate
     );
 
@@ -46,7 +48,6 @@ public interface BillMapper {
 
     //查
     List<Bill> selectAll();
-    List<Bill> selectWithGoodName();
 
 
     //条件
@@ -56,33 +57,12 @@ public interface BillMapper {
     List<Bill> selectByIds(int[] id);
 
 
-    //对于名字我们要注意模糊查询
-    List<Bill> selectByGoodId(
-            @Param("goodId") int goodId);
-
-    List<Bill> selectByGoodId(int[] goodId);
 
 
     List<Bill> selectByCustomerId(
             @Param("customerId") int customerId);
 
     List<Bill> selectByCustomerIds(int[] customerId);
-
-    //闭区间
-    List<Bill> selectByPrices(
-            @Param("low") double low,
-            @Param("high") double high);
-
-    List<Bill> selectByPrice(
-            @Param("price") double price);
-
-
-
-    List<Bill> selectByCondition(Good good);
-
-    List<Bill> selectByCondition(Map<String, Objects> map);
-
-    //分组 没有意义不做了
 
     //排序
     /*
@@ -106,7 +86,7 @@ public interface BillMapper {
 
     /*
     * 外键
-    * 返回一张表,返回商品名
+    * 返回一张表,返回商品
     * */
-
+    List<Good> selectGoods(@Param("billId") int billId);
 }

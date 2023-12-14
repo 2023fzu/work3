@@ -1,9 +1,9 @@
 package com.harvey.pojo;
 
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * create table bill(
@@ -18,123 +18,63 @@ import java.util.Objects;
  * @date 2023/10/18 17:11
  **/
 public class Bill {
-    private int id           ;
-    private int goodId      ;
-    private String goodName ;
-    private int customerId  ;
-    private double price        ;
-
-
-
-    private Date billDate    ;
-    private double formatPrice(double price){
-        String fPrice = String.format("%.2f", price);
-        return  Double.parseDouble(fPrice);
-    }
-    private String formatDate(Date billDate)  {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
-        //格式化date
-        Date date = new Date();
-        return sdf.format(date);
-    }
-
-    public String getGoodName() {
-        return goodName;
-    }
-
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public Bill() {
+
+    }
+    public Bill(int id, int customerId, java.sql.Timestamp billDate) {
+        this.customerId = customerId;
+        this.billDate = billDate;
         this.id = id;
     }
 
-    public int getGoodId() {
-        return goodId;
-    }
-
-    public void setGoodId(int goodId) {
-        this.goodId = goodId;
-    }
-
-    public int getCustomerId() {
-        return customerId;
-    }
-
-    public void setCustomerId(int customerId) {
+    public Bill(int customerId, java.sql.Timestamp billDate) {
         this.customerId = customerId;
+        this.billDate = billDate;
+
     }
 
-    public double getPrice() {
-        return price;
-    }
+    private int id ;
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
+    private List<Good> goods;
+    private int count;
+    private int customerId  ;
 
-    public Date getBillDate() {
-        return billDate;
-    }
+    // 一次订单的总价
+    private double price;
 
+    private java.sql.Timestamp billDate    ;
+    private String formatDate(String billDate)  {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-    private Bill() {
-    }
-
-    public static final int DEFAULT_ID = -1;
-
-    public Bill(int goodId, int customerId,double price)  {
-        this.goodId = goodId;
-        this.customerId = customerId;
-        this.price = formatPrice(price);
-        this.id = DEFAULT_ID;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (!(o instanceof Bill)) {
-            return false;
-        }
-        Bill bill = (Bill) o;
-        return id == bill.id && goodId == bill.goodId  && customerId == bill.customerId && Double.compare(price, bill.price) == 0 && Objects.equals(billDate, bill.billDate);
+        //格式化date
+        return sdf.format(billDate);
     }
 
 
-    @Override
-    public String toString() {
-        return "Bill{" +
-                "id=" + id +
-                ", goodId=" + goodId +
-                ", customerId=" + customerId +
-                ", price=" + price +
-                ", billDate=" + formatDate(billDate) +
-                '}';
-    }
 
 
     public String toStrWithGoodName(){
         String formatStr = this.getClass().getSimpleName() +
                 "{" +
                 "id=" + "%05d" +
-                ", goodName=" + "%s" +
+                ", count=" + "%5d" +
                 ", customerId=" +"%05d" +
                 ", price=" + "%06.2f" +
                 ", billDate=" + "%s"+
                 '}';
-        return String.format(formatStr, id, fullName(), customerId, price, formatDate(billDate));
+        return String.format(formatStr, id,count, customerId, price,billDate);
     }
 
     private static final int HALF_SPACE = 0x20;
     private static final int FULL_SPACE = 0x3000;
     private static final int HALF_TOTAL = 0x7F;
     private static final int HALF_TO_FULL = 0xFEE0;
-    private String fullName(){
-        char[] fullChar = goodName.toCharArray();
+    private String fullName(String string){
+        char[] fullChar = string.toCharArray();
         for (int i =0; i < fullChar.length; i++) {
             if (fullChar[i] == HALF_SPACE) {
                 fullChar[i] = (char) FULL_SPACE;
@@ -146,7 +86,7 @@ public class Bill {
         }
         char space = (char) FULL_SPACE;
         StringBuilder spaceStr = new StringBuilder();
-        for (int i = 0; i < Good.NAME_FORMAT_LEN- goodName.length(); i++) {
+        for (int i = 0; i < Good.NAME_FORMAT_LEN- string.length(); i++) {
             spaceStr.append(space);
         }
         return String.valueOf(fullChar)+spaceStr;
@@ -154,19 +94,55 @@ public class Bill {
     public static String listToString(List<Bill> bills){
         StringBuilder strList = new StringBuilder(
                 "Bill List\n" +
-                "ID\t\t\t\tGood Name\t\t\tCustomer ID\t\tPrice\t\tBill Date\n");
+                "ID\t\t\t\tcount\t\t\tCustomer ID\t\tPrice\t\tBill Date\n");
         String  formatStr =
-                "%05d\t%s\t\t%05d\t\t%06.2f\t%s\n";
+                "%05d\t%5d\t\t%05d\t\t%06.2f\t%s\n";
         for (Bill bill : bills){
             strList.append(String.format(
                     formatStr,
                     bill.id,
-                    bill.fullName(),
+                    bill.count,
                     bill.customerId,
                     bill.price,
-                    bill.formatDate(bill.billDate)
+                    bill.billDate
             ));
         }
         return strList.toString();
+    }
+
+    @Override
+    public String toString() {
+        return "Bill{" +
+                "id=" + id +
+                ", count=" + count +
+                ", customerId=" + customerId +
+                ", price=" + price +
+                ", billDate=" + billDate +
+                ", \ngoods=" + goods +
+                '}';
+    }
+
+    public void setGoods(List<Good> goods){
+        this.goods = goods;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setBillDate(java.sql.Timestamp billDate) {
+        this.billDate = billDate;
     }
 }

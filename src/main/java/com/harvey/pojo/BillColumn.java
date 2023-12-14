@@ -7,7 +7,7 @@ package com.harvey.pojo;
 
 public enum BillColumn {
     ID,
-    GOOD_ID,
+    COUNT,
     CUSTOM_ID,
     PRICE,
     BILL_DATE
