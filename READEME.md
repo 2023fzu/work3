@@ -1,11 +1,11 @@
-- 果然最难的还是需求分析,因为不知道有没有需求,就做了一大堆的方法
-- 都用MyBatis了,还要JDBC干嘛?
+- 果然最难的还是需求分析,因为不知道有没有需求,姑且先了一大堆的方法
+- JDBC....emmmm
 - Druid写在mybatis-config.xml里了
 - Maven项目依赖?显然!
-- 没有判断价格是否合法地异常,因为我想用负数的钱表示收入之类的?不知道有没有这个需求,暂且保留
+- 没有判断价格是否合法地异常,因为我想用负数的钱表示收入之类的?不知道,暂且保留
 [项目仓库](https://github.com/2023fzu/work3)
 
-# 10.18 
+# 10.18
 
 - 完成对两张表的设计
 - 创建Maven项目,导入包等
@@ -40,7 +40,7 @@ create table bill(
 ) comment '账单表';
 ```
 
-# 10.19 
+# 10.19
 
 - 完成对GoodMapper方法及其实现
     - 做了GoodMappers这个类似于"工具类"的东西
@@ -144,5 +144,56 @@ TREE C:\Users\27970\Desktop\IT\JDK\work3 /F /A
 - 完成了Bill有关的基础的增删改查,外键关联
 - 以整齐的二维表的形式输出Bill表
 - 阿里巴巴ok
-
 - 第三方API调用这题.....不是调用完之后和上面这题一模一样吗?emmmmmm
+- 我决定先去学Maven高级和sql高级和运维,把API放一放先
+  <<<<<<< HEAD
+
+# 12.14
+
+来完善以下数据库
+
+做一张中间表,实现bill和good的多对多
+
+```mysql
+CREATE TABLE `good_bill` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `good_id` int DEFAULT NULL,
+  `bill_id` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_gb_bid_bill_id` (`bill_id`),
+  KEY `fk_gb_gid_good_id` (`good_id`),
+  CONSTRAINT `fk_gb_bid_bill_id` FOREIGN KEY (`bill_id`) REFERENCES `bill` (`id`),
+  CONSTRAINT `fk_gb_gid_good_id` FOREIGN KEY (`good_id`) REFERENCES `good` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='bill和good的联合表,bill和good多对多'
+```
+
+
+
+然后我发现bill价格不对,价格可以从中间表推
+
+bill就变成了这样:
+
+```mysql
+CREATE TABLE `bill` (
+  `id` int NOT NULL AUTO_INCREMENT COMMENT '主键,账单号',
+  `customer_id` int NOT NULL COMMENT '用户id',
+  `bill_date` datetime DEFAULT NULL COMMENT '订单成交时间,年月日时分秒',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='账单表';
+```
+
+```mysql
+SELECT gb.bill_id as bill_id,
+b.customer_id as customer_id,
+b.bill_date as bill_date,
+SUM(gb.count) AS union_count,
+SUM(gb.count * g.price) AS union_price
+FROM good_bill gb
+JOIN bill b ON b.id = gb.bill_id
+JOIN good g ON g.id = gb.good_id
+GROUP BY gb.bill_id;
+```
+
+多表联查
+=======
+>>>>>>> e79345586a23068f8412c49e80c258edf2730a48

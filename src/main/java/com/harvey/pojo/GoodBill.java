@@ -3,7 +3,7 @@ package com.harvey.pojo;
 /**
  * TODO
  *
- * @author Harvey Blocks
+ * @author @author <a href="mailto:harvey.blocks@outlook.com">Harvey Blocks</a>
  * @version 1.0
  * @className GoodBill
  * @date 2023-12-14 19:30
